@@ -1,6 +1,6 @@
 body{
     margin: 0px auto; width: 480px; 
-    background-color: rgb(28, 133, 98)
+    img src="";
 }
 .header{
     color: rgb(255, 255, 255);
@@ -13,6 +13,6 @@ body{
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 .section3, .section4, .section5, .section6, .section7{
-    font-style: italic; text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
