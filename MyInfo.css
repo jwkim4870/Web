@@ -1,2 +1,4 @@
-
-
+p { 
+    word-wrap: break-word; color: blue;
+    border-style: solid;
+}

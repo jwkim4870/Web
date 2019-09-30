@@ -1,7 +1,15 @@
 body{
     margin: 0px auto; width: 480px; 
-    background-color: rgb(221, 144, 72)
+    background-color: rgb(232, 249, 250)
 }
 .section{
-    border: 2px;
-}                               
+    border: 2px; color: rgb(0, 217, 255);
+}                       
+
+.section2{
+    text-shadow: 1px 1px 1px rgb(0, 217, 255)
+}
+.section3, .section4, .section5, .section6, .section7{
+    font-style: italic; text-align: left;
+}
+
