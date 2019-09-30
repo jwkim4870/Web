@@ -1,6 +1,7 @@
 body{
+    margin: 0px auto; width: 480px; 
     background-color: rgb(221, 144, 72)
 }
 .section{
     border: 2px;
-}
+}                               
