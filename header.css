@@ -6,10 +6,10 @@ body { margin: 0; padding: 0; color: white; font-family: celibri; }
 
 .h-1 { max-width: 1000px; margin: auto; padding: 20px 0; }
 
-.h-1 h1 { font-size: 44px; color: #00ffb8; }
+.h-1 h1 { font-size: 44px; color: #00e1ff; }
 
-.h-1 p { font-weight: bold; font-size: 60px; color: #ffff00; }
+.h-1 p { font-weight: bold; font-size: 60px; color: #ffe600; }
 
-.h-1 a { text-decoration: none; color: #ff0000; background: #8bc34a; 
+.h-1 a { text-decoration: none; color: #ffffff; background: #4ab1c3; 
          font-size: 30px; padding: 4px 20px; border-radius: 30px;
          margin: 10px; }
