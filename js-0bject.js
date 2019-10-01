@@ -6,7 +6,6 @@ tv.info = function() {
     document.write( "tv color : " + this.color, "<br>" );
     document.write( "tv price : " + this.price, "<br>" );
 }
-
 var car = {
     color: "black",
     price: 50000,
