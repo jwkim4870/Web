@@ -25,3 +25,17 @@ var t = Number( '500' );
 document.write( n, "<br>");
 document.write( t, "<br>");
 document.write( "<hr>");
+
+//논리형
+var b = true;
+var b2 = 10 >= 100;
+var k = Boolean( "hello" );
+var l = Boolean( 0 );
+var m = Boolean( null );
+
+document.write( b, "<br>" );
+document.write( b2, "<br>" );
+document.write( k, "<br>" );
+document.write( l, "<br>" );
+document.write( m, "<br>" );
+document.write( "<hr>" );
