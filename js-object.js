@@ -158,7 +158,7 @@ document.write( "<hr>" );
 //함수 객체
 var number1 = 10;
 var number2 = 20;
-
+  
 document.write( sum( number1, number2 ), "<br>" );
 //document.write( "sum2() -> " + sum2( number1, number2 ) );
 //일반 함수(function다음에 이름이 있음.)
