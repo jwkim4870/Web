@@ -1,4 +1,3 @@
-// 내장 객체 생성
 var tv = new Object();
 tv.color = "white";
 tv.price = 30000;
