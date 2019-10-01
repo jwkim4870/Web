@@ -3,15 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>성적 처리 Web</title>
-        <style>
-            body {margin:0px auto; text-align:center;}
-            table {margin:0px auto; text-align:center;}
-            p {font-size: 20px;}
-        </style>
+        <link rel="stylesheet" href="score.css">
     </head>
     <body>
+        <script src="score.js"></script>
         <div class="header"><h1>성적 처리 WEB</h1><br><hr></div>
-        <div class="section1"><P></P><br></div>
+        <div class="section1">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>이름</td><td><input name="username" id="user" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td></td><td><input type="submit" value="검색"></td>
+                    </tr>
+                    <tr>
+                        <td>과목1 점수 &nbsp;&nbsp;</td><td><input class="sub1" type="integer" name="input" ></td>
+                    </tr>
+                    <tr>
+                        <td>과목2 점수 &nbsp;&nbsp;</td><td><input class="sub2" type="integer" name="input"></td>
+                    </tr>
+                    <tr>
+                        <td>과목3 점수 &nbsp;&nbsp;</td><td><input class="sub3" type="integer" name="input"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="저장"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br></div>
         <div class="section2">
             <p>성적 일람표(입력순)</p><br>
             <table border="1">
@@ -31,7 +51,7 @@
         </div>
         <div class="section3">
             <p>성적 일람표(입력순)</p><br>
-            <table border="1"></table>
+            <table border="1">
                 <thead><th>이름</th><th>과목1</th><th>과목2</th><th>과목3</th><th>총점</th><th>평균</th><th>평가</th><th>석차</th></thead>
                 <tbody>
                     <tr>
