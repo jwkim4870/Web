@@ -15,7 +15,7 @@
                         <td>이름</td><td><input name="username" id="user" type="text" /></td>
                     </tr>
                     <tr>
-                        <td></td><td><input type="submit" value="검색"></td>
+                        <td></td><td><input id="search" type="submit" value="검색" ></td>
                     </tr>
                     <tr>
                         <td>과목1 점수 &nbsp;&nbsp;</td><td><input class="sub1" type="integer" name="input" ></td>
@@ -27,7 +27,7 @@
                         <td>과목3 점수 &nbsp;&nbsp;</td><td><input class="sub3" type="integer" name="input"></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="submit" value="저장"></td>
+                        <td colspan="2"><input type="submit" value="저장" onclick="sub_sum(sub1, sub2, sub3)"></td>
                     </tr>
                 </tbody>
             </table>
