@@ -86,7 +86,7 @@ console.log( result );
 result = arr1.concat( arr2 );
 console.log( result );
 
-result = ar1.slice( 1, 3 );
+result = arr1.slice( 1, 3 );
 console.log( result );
 
 arr1.sort();
