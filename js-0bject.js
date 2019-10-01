@@ -20,3 +20,6 @@ document.write( "<hr>" );
 document.write( "<h3>car object call method</h3>" );
 car.info();
 document.write( "<hr>" );
+
+console.log( tv );
+console.log( car );
