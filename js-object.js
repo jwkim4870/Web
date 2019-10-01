@@ -160,7 +160,7 @@ var number1 = 10;
 var number2 = 20;
 
 document.write( sum( number1, number2 ) );
-document.write( "sum2() -> " + sum2( number1, number2 ) );
+//document.write( "sum2() -> " + sum2( number1, number2 ) );
 
 function sum( number1, number2 ) {
     return number1 + number2;
