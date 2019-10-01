@@ -159,7 +159,7 @@ document.write( "<hr>" );
 var number1 = 10;
 var number2 = 20;
 
-document.write( sum( number1, number2 ) );
+document.write( sum( number1, number2 ), "<br>" );
 //document.write( "sum2() -> " + sum2( number1, number2 ) );
 //일반 함수(function다음에 이름이 있음.)
 function sum( number1, number2 ) {
@@ -169,17 +169,18 @@ function sum( number1, number2 ) {
 var sum2 = function( number1, number2 ) {
     return number1 + number2;
 }
-document.write( "sum2() -> " + ( number1, number2 ) );
+document.write( "sum2() -> " + ( number1, number2 ), "<br>" );
 
 console.log( sum( number1, number2 ) );
 console.log( sum2 );
 
 function totals() {
     var total = 0;
-    for ( var value in arguments ) {
-        total += value;
+    for ( var i = 0; i < arguments.length; i++ ) {
+        total += arguments[ i ];
     }
     return total;
 }
 
 document.write( totals( 10, 20, 30 ) );
+document.write( "<hr>" );
