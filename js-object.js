@@ -171,5 +171,5 @@ var sum2 = function( number1, number2 ) {
 }
 document.write( "sum2() -> " + ( number1, number2 ) );
 
-console.log( sum );
+console.log( sum( number1, number2 ) );
 console.log( sum2 );
