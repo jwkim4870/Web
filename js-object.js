@@ -76,3 +76,21 @@ for ( var index in arr ) {
     document.write( "arr[ " + i++ + " ] = " + arr[ index ], "<br>" );
 }
 document.write( "<hr>" );
+
+// Array 객체 메서드
+var arr1 = [ "사당", "교대", "방배", "강남" ];
+var arr2 = [ "신사", "압구정", "옥수" ];
+var result = arr1.join( "-" );
+console.log( result );
+
+result = arr1.concat( arr2 );
+console.log( result );
+
+result = ar1.slice( 1, 3 );
+console.log( result );
+
+arr1.sort();
+console.log( arr1 );
+
+arr2.reverse();
+console.log( arr2 );
