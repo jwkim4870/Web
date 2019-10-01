@@ -134,3 +134,23 @@ document.write( str.substr( 21, 4 ), "<br>" );
 document.write( str.substring( 6, 12 ), "<br>" );
 document.write( str.replace( "you", "me" ), "<br>" );
 document.write( "<hr>" );
+
+var email = prompt( "이메일 주소를 입력하세요.", "" );
+var arrUrl = [ ".co.kr", ".com", ".or.kr", ".go.kr" ];
+var check1 = false;
+var check2 = false;
+
+if ( email.indexOf( "@" ) > 0 ) {
+    check1 = true;
+}
+for ( var i = 0; i < arrUrl.length; ++i ) {
+    if ( email.indexOf( arrUrl[ i ] ) > 0 ) {
+        check2 = true;
+    }
+}
+if ( check1 && check2 ) {
+    document.write( email );
+} else {
+    document.write( "e-mail 형식이 잘못 되었습니다.", "<br>" );
+}
+document.write( "<hr>" );
