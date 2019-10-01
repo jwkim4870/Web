@@ -1,5 +1,5 @@
 function student  () {
-    var name = document.getElementById(name).value;
+    var name = document.getElementById(user).value;
     var sub1 = document.getElementById(sub1).value;
     var sub2 = document.getElementById(sub2).value;
     var sub3 = document.getElementById(sub3).value;
