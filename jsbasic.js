@@ -48,3 +48,11 @@ h = null;
 document.write( u, "<br>" );
 document.write( h, "<br>" );
 document.write( "<br>" );
+
+//typeof
+document.write( typeof s, "<br>");
+document.write( typeof n, "<br>");
+document.write( typeof b, "<br>");
+document.write( typeof u, "<br>");
+document.write( typeof h, "<br>");
+bdocument.write( "<hr>" );
