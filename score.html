@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="score.css">
     </head>
     <body>
-        <script src="score.js"></script>
+        
         <div class="header"><h1>성적 처리 WEB</h1><br><hr></div>
         <div class="section1">
             <table>
@@ -18,16 +18,16 @@
                         <td></td><td><input id="search" type="submit" value="검색" ></td>
                     </tr>
                     <tr>
-                        <td>과목1 점수 &nbsp;&nbsp;</td><td><input class="sub1" type="integer" name="input" ></td>
+                        <td>과목1 점수 &nbsp;&nbsp;</td><td><input id="sub1" type="integer" name="input" ></td>
                     </tr>
                     <tr>
-                        <td>과목2 점수 &nbsp;&nbsp;</td><td><input class="sub2" type="integer" name="input"></td>
+                        <td>과목2 점수 &nbsp;&nbsp;</td><td><input id="sub2" type="integer" name="input"></td>
                     </tr>
                     <tr>
-                        <td>과목3 점수 &nbsp;&nbsp;</td><td><input class="sub3" type="integer" name="input"></td>
+                        <td>과목3 점수 &nbsp;&nbsp;</td><td><input id="sub3" type="integer" name="input"></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="submit" value="저장" onclick="sub_sum()"></td>
+                        <td colspan="2"><input type="button" value="저장" onclick="student()" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -36,14 +36,12 @@
             <p>성적 일람표(입력순)</p><br>
             <table border="1">
                 <thead><th>이름</th><th>과목1</th><th>과목2</th><th>과목3</th><th>총점</th><th>평균</th><th>평가</th><th>석차</th></thead>
-                <tbody>
-                    <tr>
-                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-                    </tr>
+                <tbody id="score_tbody">
+
                 </tbody>
             </table>
         </div>
-        <div class="section3">
+ <!--      <div class="section3">
             <p>성적 일람표(입력순)</p><br>
             <table border="1">
                 <thead><th>이름</th><th>과목1</th><th>과목2</th><th>과목3</th><th>총점</th><th>평균</th><th>평가</th><th>석차</th></thead>
@@ -59,6 +57,7 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
+        </div>-->
+        <script src="score.js"></script>
     </body>
 </html>
