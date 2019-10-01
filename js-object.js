@@ -182,5 +182,5 @@ function totals() {
     return total;
 }
 
-document.write( totals( 10, 20, 30 ) );
+document.write( totals( 10, 20, 30 ), "<br>" );
 document.write( "<hr>" );
