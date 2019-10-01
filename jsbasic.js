@@ -55,4 +55,4 @@ document.write( typeof n, "<br>");
 document.write( typeof b, "<br>");
 document.write( typeof u, "<br>");
 document.write( typeof h, "<br>");
-bdocument.write( "<hr>" );
+bdocument.write( "<hr>"  );
