@@ -105,7 +105,7 @@ console.log( greenArr );
 
 var data1 = yellowArr.pop();
 var data2 = yellowArr.shift();
-console.log( data1 );
+console.log( data1 ); 
 console.log( data2 );
 
 yellowArr.push( data2 );
@@ -113,3 +113,24 @@ console.log( yellowArr );
 
 yellowArr.unshift( data1 );
 console.log( yellowArr );
+
+// String 객체
+var str = new String( "Hello Thank you good luck to you" );
+var str2 = "Hello Thank you good luck to you";
+console.log( str );
+console.log( str2 );
+
+document.write( str.charAt( 16 ), "<br>" );
+document.write( str2.charAt( 3 ), "<br>" );
+document.write( "<hr>" );
+
+document.write( str.indexOf( "you" ), "<br>" );
+document.write( str2.indexOf( "you", 16 ), "<br>" );
+document.write( "<hr>" );
+
+document.write( str.match( "luck" ), "<br>" );
+document.write( str.search( "you" ), "<br>" );
+document.write( str.substr( 21, 4 ), "<br>" );
+document.write( str.substring( 6, 12 ), "<br>" );
+document.write( str.replace( "you", "me" ), "<br>" );
+document.write( "<hr>" );
