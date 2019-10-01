@@ -71,9 +71,9 @@ document.write( "<hr>" );
 var k = 10, m = "10";
 
 document.write( k == 10, "<br>" );
-document.write( m == 10, "<br>" );
+document.write( m == 10, "<br>" );  // ==: 값만 같은지 비교
 document.write( "<hr>" );
 
 document.write( k === 10, "<br>" );
-document.write( m === 10, "<br>" );
+document.write( m === 10, "<br>" );  // ===: 값과 타입도 같은지 비교
 document.write( "<hr>" );
