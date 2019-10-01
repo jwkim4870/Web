@@ -66,3 +66,14 @@ str += "</table>";
 
 document.write( str, "<br>" );
 document.write( "<hr>" );
+
+//비교 연산
+var k = 10, m = "10";
+
+document.write( k == 10, "<br>" );
+document.write( m == 10, "<br>" );
+document.write( "<hr>" );
+
+document.write( k == 10, "<br>" );
+document.write( m == 10, "<br>" );
+document.write( "<hr>" );
