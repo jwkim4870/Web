@@ -185,7 +185,9 @@ function totals() {
 document.write( totals( 10, 20, 30 ), "<br>" );
 document.write( "<hr>" );
 
-(function() {
+(
+    function() {
     document.write( "자동 실행 함수", "<br>" );
     document.write( "<hr>" );
-}());
+}()
+); // 자동실행 함수(jQuery에 많이 쓰임.)
