@@ -184,3 +184,8 @@ function totals() {
 
 document.write( totals( 10, 20, 30 ), "<br>" );
 document.write( "<hr>" );
+
+(function() {
+    document.write( "자동 실행 함수", "<br>" );
+    document.write( "<hr>" );
+}());
