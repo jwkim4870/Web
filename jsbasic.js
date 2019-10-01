@@ -1,6 +1,6 @@
 // jsbasic.js
 document.write( "<h3>JavaScript 기본 언어 스펙 연습</h3>");
-docuement.write( "<hr>" );
+document.write( "<hr>" );
 
 var box;
 box = 100;
