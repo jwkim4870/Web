@@ -74,6 +74,6 @@ document.write( k == 10, "<br>" );
 document.write( m == 10, "<br>" );
 document.write( "<hr>" );
 
-document.write( k == 10, "<br>" );
-document.write( m == 10, "<br>" );
+document.write( k === 10, "<br>" );
+document.write( m === 10, "<br>" );
 document.write( "<hr>" );
