@@ -17,3 +17,11 @@ document.write( s, "<br>");
 document.write( num, "<br>" );
 document.write( tag, "<br>" );
 document.write( "<hr>" );
+
+//숫자형
+var n = 100;
+var t = Number( '500' );
+
+document.write( n, "<br>");
+document.write( t, "<br>");
+document.write( "<hr>");
