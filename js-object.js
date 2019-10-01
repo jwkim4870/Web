@@ -37,3 +37,21 @@ document.write( "월   : " + nowMonth, "<br>" );
 document.write( "일   : " + nowDate, "<br>" );
 document.write( "요일 : " + nowDay, "<br>" );
 document.write( "<hr>" );
+
+//수학 객체
+var num = 2.1234;
+var maxNum = Math.max( 10, 5, 8, 30 );
+var minNum = Math.min( 10, 5, 8, 30 );
+var roundNum = Math.round( num );
+var floorNum = Math.floor( num );
+var rndNum = Math.random();
+
+document.write( "maxNum : " + maxNum, "<br>" );
+document.write( "minNum : " + minNum, "<br>" );
+document.write( "roundNum : " + roundNum, "<br>" );
+document.write( "floorNum : " + floorNum, "<br>" );
+document.write( "rndNum : " + rndNum, "<br>" );
+document.write( "<hr>" );
+
+document.write( Math.floor( Math.random() * 11 ) );
+document.write( "<hr>" );
