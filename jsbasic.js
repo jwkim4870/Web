@@ -81,7 +81,7 @@ document.write( "<hr>" );
 // 입력
 var number1 = prompt( "정수1 입력", "0" );
 var number2 = prompt( "정수2 입력", "0" );
-var sum = parseInt( number1 ) + parseInt( number2 );
+var sum = Number( number1 ) + parseInt( number2 );
 
 document.write( number1 + " + " + number2 + " = " + sum, "<br>" );
 document.write( "<hr>" );
