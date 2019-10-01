@@ -55,14 +55,14 @@ document.write( typeof n, "<br>");
 document.write( typeof b, "<br>");
 document.write( typeof u, "<br>");
 document.write( typeof h, "<br>");
-bdocument.write( "<hr>"  );
+document.write( "<hr>"  );
 
 // 문자열 결합 연산
 var str = "<table border='1'>";
 str += "<tr>";
 str += "<td>1</td><td>2</td><td>3</td>";
 str += "</tr>";
-str += "</table>"
+str += "</table>";
 
 document.write( str, "<br>" );
 document.write( "<hr>" );
