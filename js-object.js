@@ -154,3 +154,21 @@ if ( check1 && check2 ) {
     document.write( "e-mail 형식이 잘못 되었습니다.", "<br>" );
 }
 document.write( "<hr>" );
+
+//함수 객체
+var number1 = 10;
+var number2 = 20;
+
+document.write( sum( number1, number2 ) );
+
+function sum( number1, number2 ) {
+    return number1 + number2;
+}
+
+var sum2 = function( number1, number2 ) {
+    return number1 + number2;
+}
+document.write( "sum2() -> " + ( number1, number2 ) );
+
+console.log( sum );
+console.log( sum2 );
