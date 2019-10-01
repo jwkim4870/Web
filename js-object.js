@@ -73,6 +73,6 @@ document.write( "<hr>" );
 
 i = 0;
 for ( var index in arr ) {
-    document.write( "arr[ " + i + " ] = " + arr[ index ], "<br>" );
+    document.write( "arr[ " + i++ + " ] = " + arr[ index ], "<br>" );
 }
 document.write( "<hr>" );
