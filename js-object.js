@@ -55,3 +55,24 @@ document.write( "<hr>" );
 
 document.write( Math.floor( Math.random() * 11 ) );
 document.write( "<hr>" );
+
+// 배열 객체
+var arr = [ 30, "JavaScript", true ];
+console.log( arr );
+
+document.write( "<h3>배열 내용</h3>" );
+document.write( "arr[ 0 ] = " + arr[ 0 ], "<br>" );
+document.write( "arr[ 1 ] = " + arr[ 1 ], "<br>" );
+document.write( "arr[ 2 ] = " + arr[ 2 ], "<br>" );
+document.write( "<hr>" );
+
+for ( var i = 0; i < arr.length; ++i ) {
+    document.write( "arr[ " + i + " ] = " + arr[ i ], "<br>" );
+}
+document.write( "<hr>" );
+
+i = 0;
+for ( var index in arr ) {
+    document.write( "arr[ " + i + " ] = " + arr[ index ], "<br>" );
+}
+document.write( "<hr>" );
