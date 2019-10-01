@@ -39,3 +39,12 @@ document.write( k, "<br>" );
 document.write( l, "<br>" );
 document.write( m, "<br>" );
 document.write( "<hr>" );
+
+// null & undifined
+var u;
+var h = "hello";
+h = null;
+
+document.write( u, "<br>" );
+document.write( h, "<br>" );
+document.write( "<br>" );
