@@ -2,7 +2,7 @@
 var tv = new Object();
 tv.color = "white";
 tv.price = 30000;
-tv.info = function() {
+tv.info = function() { //익명함수
     document.write( "tv color : " + this.color, "<br>" );
     document.write( "tv price : " + this.price, "<br>" );
 }
