@@ -1,0 +1,18 @@
+body {margin: 0 auto; text-align: center; 
+    background-image: url('limited_edition.jpg');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 77% 5%;
+}
+table {margin: 0 auto; text-align: center;}
+td {margin: 0 auto; text-align: center; width:140px;}
+img {width:150px; height:200px; border-radius:100px;}
+#left_bar{background-color: rgb(39, 160, 240); float:left; width:16%; height:4000px; opacity:0.7;}
+#right_bar{background-color: rgb(39, 160, 240); float:right; width:16%; height:4000px; opacity:0.7;}
+#div1, #div2, #div3, #div4 {width: 60%; margin: 0 auto; text-align: center}
+#button1, #button2, #button3 {width:150px; background-color: #5898f8; border: none; color:#fff; padding: 5px 0; text-align: center;
+        text-decoration: none; display: inline-block; font-size: 15px; margin: 2px; cursor: pointer;}
+#button1:hover, #button2:hover, #button3:hover{background:#fff; color:#5898f8;}
+hr{margin:0;}
+
+
