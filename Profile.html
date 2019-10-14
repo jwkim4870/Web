@@ -8,21 +8,29 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
     </head>
     <body>
+        <div class="floating">
+                    <td><button id="button0" onclick="fnMove('0')"><h2>To Top</h2></button></td>
+                    <td><button id="button1" onclick="fnMove('1')"><h2>Introduction</h2></button></td>
+                    <td><button id="button2" onclick="fnMove('2')"><h2>Career Path</h2></button></td>
+                    <td><button id="button3" onclick="fnMove('3')"><h2>Experience</h2></button></td>
+                    <td><button id="button4" onclick="fnMove('4')"><h2>Cover Letter</h2></button></td>
+                    <td><button id="button5" onclick="fnMove('5')"><h2>Self Video</h2></button></td>
+        </div>
         <div id="header">
             <table>
                 <tr>
                     <td><button id="button1" onclick="fnMove('1')"><h2>Introduction</h2></button></td>
                     <td><button id="button2" onclick="fnMove('2')"><h2>Career Path</h2></button></td>
                     <td><button id="button3" onclick="fnMove('3')"><h2>Experience</h2></button></td>
-                    <td><button id="button3" onclick="fnMove('4')"><h2>Cover Letter</h2></button></td>
-                    <td><button id="button3" onclick="fnMove('5')"><h2>Self Video</h2></button></td>
+                    <td><button id="button4" onclick="fnMove('4')"><h2>Cover Letter</h2></button></td>
+                    <td><button id="button5" onclick="fnMove('5')"><h2>Self Video</h2></button></td>
                 </tr>
             </table>
         </div>
         <hr />
         <div id="left_bar"></div>
         <div id="right_bar"></div>
-        <div id="section2">
+        <div id="div0">
             <h1>Beyond the Limit</h1>
             <br>
             <img src="web.jpg"></div>
@@ -41,7 +49,7 @@
                     </td>
                     <td>
                         jwkim4870@gmail.com                       
-                    </td>>
+                    </td>
                     <td>
                         <h3>Linked-in:</h3>
                     </td>
@@ -166,7 +174,7 @@
         <hr>
         <div id="div5" style="text-align: left;">
             <center><hd><h2>Self Video</h2></hd></center>
-            <p align="middle"><video src="testvideo.mp4" type='video/mp4' width="640" height="480" controls>
+            <p align="middle"><video src="testvideo.mp4" type='video/webm' width="640" height="480" controls>
             </video></p>     
         </div>
     </body>
