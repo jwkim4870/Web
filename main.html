@@ -2,29 +2,46 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!--<link type="text/css" rel="stylesheet" href="main.css">-->
-        <link rel="stylesheet" href="main.css">
-        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-        <title>PROFILE</title>
-        <!--
+        <title>Main Page</title>
+        <link type="text/css" rel="stylesheet" href="main.css">
         <script>
-            alert("프로파일 방문을 환영합니다.");
-        </script>
-        -->
-
+                function search() {
+                    var fn = document.search_engine.forcename.value;
+                    var fi = document.search_engine.forceid.value;
+                    var valid = false;
+                    var forcenameArray = ["Park", "Gong"];
+                    var forceidArray = ["park86", "gong86"];
+                    for(var i = 0; i < forcenameArray.length; i++){
+                        if((fn == forcenameArray[i]) && (fi == forceidArray[i])){
+                            valid = true;
+                            break;
+                        }
+                    }
+                    if(valid){
+                        alert("해당인원의 정보로 이동");
+                        window.location = "https://google.com/"
+                        return false;
+                    } else { 
+                        alert("입력정보 오류. 다시 입력해주세요.");
+                        return false;
+                    }
+                }
+            </script>  
     </head>
     <body>
-        <div class="header"><h1>PROFILE</h1></div>
-        
-        <div class="section">
-            <div class="section1"><img src="web.jpg" width="150" height="200"></div>
-            <div class="section2"><h1>김 진 욱</h1></div>
-            <div class="section3"><h3>연 락 처 : 010-1234-5678</h3></div>
-            <div class="section4"><h3>이 메 일 : kim@korea.com</h3></div>
-            <div class="section5"><h3>S  &nbsp;N  &nbsp;S &nbsp;: <a href="https://www.facebook.com/">facebook link</a></h3></div>
-            <div class="section6"><h3>이 력 서 링크 <a href="MyInfo.html">Click</a></h3></div>
-            <div class="section7"><h3>자기소개서 링크 <a href="Introduct.html">Click</a></h3></div>
+        <div class="container">
+        <div class="search">
+        <h1>Search Work-Force</h1>
+        <form name="search_engine" method="post">
+            <ul>
+                <li>Force Name : </li>
+                <input class="forcename" type="text" name="forcename">
+                <li>Force ID : </li>
+                <input class="forceid" type="text" name="forceid">
+            </ul>
+                <input type="button" class="submit" value="Search" name="submit" onclick="search()">
+        </form>
         </div>
-       
+        </div>      
     </body>
 </html>

@@ -1,17 +1,59 @@
 <!DOCTYPE html>
-<!-- login.html -->
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Login</title>
-        <link rel="stylesheet" href="login.css">
+        <link type="text/css" rel="stylesheet" href="login.css">
     </head>
     <body>
-        <form class="box" action="index.html" method="post">
-            <h1>Login</h1>
-            <input type="text" name="" placeholder="Username">
-            <input type="password" name="" placeholder="Password">
-            <input type="submit" name="" placeholder="Login">
-        </form>
+            <script>
+        
+                    var count = 2;
+            
+                    function validate(){
+                        var un = document.login.username.value;
+                        var pw = document.login.password.value;
+                        var valid = false;
+                        var usernameArray = ["Kim", "Bob"];
+                        var passwordArray = ["12345", "54321"];
+                        for(var i = 0; i < usernameArray.length; i++){
+                            if((un == usernameArray[i]) && (pw == passwordArray[i])){
+                                valid = true;
+                                break;
+                            }
+                        }
+                        if(valid){
+                            alert("로그인 성공");
+                            window.location = "main.html"
+                            return false;
+                        }
+                        if(count >= 1){
+                            alert(" ID 또는 비밀번호 오류 ");
+                            count--;
+                        }
+                        else {
+                            alert("3회이상 입력오류");
+                            document.login.username.value = "접근제한"; 
+                            document.login.username.disabled = true;
+                            document.login.password.disabled = true;
+                            return false;
+                        }
+                    }
+                    </script>
+        <div class="container">
+        <div class="header">
+            <h1>Login To <br>
+                HR Block</h1>
+        </div>
+        <form name="login" method="post">      
+        <ul>
+            <li>Username:</li>
+            <input class="username" type="text" name="username">
+            <li>Password:</li>
+            <input class="password" type="password" name="password">
+        </ul>    
+        <input type="button" class="submit" value="Log In" name="submit" onclick="validate()">
+        <input type="button" class="submit" value="Sign Up" name="submit" onclick="location.href='signup.html'">
+       </form>
+        </div>
     </body>
 </html>

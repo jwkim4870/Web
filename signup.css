@@ -4,8 +4,8 @@
 }
 
 li {
+    text-align: left;
     list-style-type: none;
-    text-align: center;
     padding-bottom: 5%;
 }
 
@@ -19,12 +19,12 @@ input {
 
 h1 {
     font-family: sans-serif;
-    color: rgb(52, 171, 240);
+    color: rgb(52, 240, 193);
 }
 
 .container {
     font-family: sans-serif;
-    border: 2px solid rgb(52, 171, 240);
+    border: 2px solid rgb(52, 240, 193);
     width: 35%;
     text-align: center;
     margin: auto;
@@ -48,7 +48,7 @@ h1 {
 }
 
 .submit:hover {
-    background-color: rgb(52, 171, 240);
+    background-color: rgb(52, 240, 193);
     color: black;
     border: 1px solid black;
     font-family: sans-serif;
